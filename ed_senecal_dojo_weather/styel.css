@@ -1,0 +1,49 @@
+
+
+
+.wrapper{
+    width: 1000px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    color: white;
+}
+.cities{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size:x-large;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+}
+/*below is the css for the days of the week*/
+.days_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+.days{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+        background-color: rgb(224, 239, 255);
+        padding: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}

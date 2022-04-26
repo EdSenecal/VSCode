@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>First Name:* <input type="text"></p>
+    <p>Email address:* <input type="text"></p>
+    <p>Password:* <input type="text"></p>
+    <p>Confirm Password:* <input type="text"></p>
+    <p>Birthday: <input type="date" name="birthday" ></p>
+    <p>Gender Identity</p>
+    <div><input type="radio" name="font" value="Male" >
+        <label for="Male">Male</label>
+        <input type="radio" name="font" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="font" value="Non-binary" >
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" name="font" value="I prefer not to answer">
+        <label for="I prefer not to answer">I prefer not to answer</label>
+    </div>
+    <p>A short description about myself:</p>
+    <textarea name="A short description about myself" id="" cols="30" rows="10"></textarea>
+    <p>Favorite Language:  <select name="Favorite Language" id="">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Bhojpuri">Bhojpuri</option>
+        <option value="Punjabi">Punjabi</option>
+        <option value="Xhosa">Xhosa</option>
+    </select></p>
+    <p><input type="checkbox">Yes, I would like to receivce periodic email updates</p>
+    <input type="submit" value="Create Account">
+    <p>*Indicates a required field</p>
+</body>
+</html>

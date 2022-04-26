@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--this is the top navigation portion of the code-->
+        <div class="nav_bar">
+            <div class="header_info">
+                <img id="leaf" src="./assets/leaf.png" alt="darkleaf">
+                <h1>EasyBay</h1>
+                <input id="search_bar" type="text" placeholder="    Search for anything">
+                <p id="sign_in">Sign In</p>
+                <img id="cart" src="./assets/cart-dark.png" alt="cart" onclick="empty_cart()">
+            </div>
+            <div class="plants">
+                <p>Aeonium</p>
+                <p>Andormischus</p>
+                <p>Agave</p>
+                <p>Aloe</p>
+                <p>Anacampseros</p>
+                <p>Aristaloe</p>
+                <p>More...</p>
+            </div>
+            <div class="motto">
+                <p class="motto">Your Source for Serious Succulent Specialties</p>
+            </div>
+        </div>
+        <!--Advertisment refers to the section of the body that is encouraging a user to click-->
+        <div class="advertisment">
+            <div class="discover">
+                <div class="text">
+                    <p>Discover succ-</p>
+                    <p>ulent varieties</p>
+                    <p>one pot or rack</p>
+                    <p>at a time!</p>
+                    <div class="bold">
+                        <p>Discover </p>
+                        <img class="arrow" src="./assets/arrow-light.png" alt="arrow image">
+                    </div>
+                </div>
+                <div class="change_image" onmouseover = "hover_over(this)" onmouseleave = "hover_off(this)">
+                    <img id="succulent-1" src="./assets/succulents-1.jpg" alt="succulent-1">
+                </div>
+            </div>
+            <div class="aloe">
+                <img id="aloe-m" src="./assets/aloe-m.jpg" alt="soothing aloe">
+                <div class="soothing_aloe">
+                    <p>Soothing Aloe</p>
+                    <img class="arrow" src="./assets/arrow-light.png" alt="">
+
+                </div>
+            </div>
+        </div>
+        <!--Succulent section is the bar with various succulents-->
+        <div class="succulent">
+            <div class= "info_bar" id="aeonium">
+                <img class="images" src="./assets/aeonium-s.jpg" alt="aeonium-s">
+                <p>Aeonium</p>
+            </div>
+            <div class= "info_bar" id="aloe1">
+                <img class="images" src="./assets/aloe-s.jpg" alt="aloe-s">
+                <p>Aloe</p>
+            </div>
+            <div class= "info_bar" id="cactus">
+                <img class="images" src="./assets/cactus-s.jpg" alt="cactus-s">
+                <p>Cactus</p>
+            </div>
+            <div class= "info_bar" id="echeveria">
+                <img class="images" src="./assets/echeveria-s.jpg" alt="echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class= "info_bar" id="sedum">
+                <img class="images" src="./assets/sedum-s.jpg" alt="sedum">
+                <p>Sedum</p>
+            </div>
+            <div class= "info_bar" id="sempervivum">
+                <img class="images" src="./assets/sempervivum-s.jpg" alt="sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+        <div class="cookies" id="cookies">
+            <img src="./assets/alert-dark.png" alt=" ! symbol">
+            <div class="popup_text">
+                <p>This site makes use of third-party cookies, by clicking "I Accept"</p>
+                <p>you agree to the following terms outlined in our <a href="#">cookie policy</a></p>
+            </div>
+            <button onclick="remove_popup()" >I Accept</button>
+        </div>
+    </div>
+    <!--this is teh code for the popup section-->
+    
+<script src="script.js"></script>
+</body>
+
+</html>

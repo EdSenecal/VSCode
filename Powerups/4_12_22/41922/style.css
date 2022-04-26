@@ -1,0 +1,29 @@
+
+
+div.header{
+    display: flex;
+    justify-content: space-between;
+background-color: cadetblue;
+}
+.right{
+    display:flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.heart{
+    font-size: x-large;
+}
+.container{
+    display: flex;
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}

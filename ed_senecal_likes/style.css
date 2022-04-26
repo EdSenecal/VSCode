@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0%;
+}
+
+.wrapper{
+    margin-left: 20%;
+    margin-right: 20%
+    
+    
+
+}
+.network{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    font-size: x-large;
+}
+.content{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+}
+.left{
+    border-style: solid;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding: 40px;
+}
+.right{
+    width: 100%;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+.user{
+    display: flex;
+
+    height: 150px;
+    flex-direction: column;
+    padding: 20px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+div.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.like_counter{
+    display: flex;
+}
+button{
+    font-size: x-large;
+    margin-left: 20px;
+    background-color: goldenrod;
+    box-shadow: 3px 3px;
+    
+}
